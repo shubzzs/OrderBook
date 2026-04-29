@@ -1,2 +1,0 @@
-this is newly created file in c++
-Hello this is greeting for creating a new File
