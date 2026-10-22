@@ -6,8 +6,10 @@ void OrderBook::addOrder(const OrderObjects& orderobj)
     {
         orderBook_[0].push_back(orderobj);
     }
-
-    orderBook_[1].push_back(orderobj);
+    else
+    {
+        orderBook_[1].push_back(orderobj);
+    }
 }
 
 void OrderBook::removeOrder(size_t id , const OrderObjects& orderobj)
