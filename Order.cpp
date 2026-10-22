@@ -12,7 +12,7 @@ Price OrderObjects::getPrice() const
 
 Quantity OrderObjects::getQuantity() const 
 {
-    return order_.quantity;;
+    return order_.quantity;
 }
 
 Side OrderObjects::getSide() const{
